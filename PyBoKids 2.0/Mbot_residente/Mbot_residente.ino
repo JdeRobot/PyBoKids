@@ -57,7 +57,7 @@ void read_MotorsMessage (String mensaje) {
 
   int izdoInt = izdo.toInt();
   int dchoInt = dcho.toInt();
-  motorIzdo.run(-izdoInt); //el motor izdo va del revés
+  motorIzdo.run(izdoInt);
   motorDcho.run(dchoInt);
 }
 
