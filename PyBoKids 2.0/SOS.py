@@ -9,7 +9,7 @@ from Library_Mbot_v1 import *
 #-- Poner aquí las variables globales, si se necesitan
 serial = open_PortSerial('com3')
 #-- Sacar mensaje inicial: qué va a hacer el robot
-print ("Mensaje de socorro con los led")
+print ("Mensaje de socorro con el zumbador")
 
 try:
     #--Escribe aquí el programa principal

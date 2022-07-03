@@ -22,7 +22,7 @@ try:
         if (sensorMessage[0] == 'distance'):
             print ("distance: " + sensorMessage[1])
         elif (sensorMessage[0] == 'siguelineas'):
-            print ("siguelíneas: " + sensorMessage[1])
+            print ("siguelineas: " + sensorMessage[1])
         elif (sensorMessage[0] == 'luz'):
             print ("sensor de luz: " + sensorMessage[1])
 except KeyboardInterrupt:
